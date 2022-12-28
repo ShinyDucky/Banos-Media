@@ -1,0 +1,12 @@
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* z-index: 2; */
+    position: relative;
+    top: 160px;
+}
+
+.container .textbox {
+    justify-content: center;
+}

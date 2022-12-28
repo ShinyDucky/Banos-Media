@@ -19,7 +19,8 @@
       "@components/*": ["./components/*"],
       "@db/*": ["./db/*"],
       "@styles/*": ["./styles/*"],
-      "@public/*": ["./public/*"]
+      "@public/*": ["./public/*"],
+      "@encrypt": ["./cryptography/encrypt.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

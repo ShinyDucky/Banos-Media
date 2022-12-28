@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    background-color: #355070;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
 .test {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .heading {
+    height: 300px;
     display: flex;
     justify-content: center;
     z-index: 2;
+    position: relative;
+    top: 60px;
 }
 
 .copyright {
@@ -16,8 +28,13 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #6D597A;
     overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    opacity: .8;
+    left: 0px;
 }
 
 /* Style the links inside the navigation bar */
@@ -40,4 +57,118 @@
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+.copyright1 {
+    right: 10px;
+    position: fixed;
+}
+
+.clickpls {
+    color: #04d9ff;
+    font-family: arial;
+}
+
+.headinglogo {
+    height: 25px;
+}
+
+.headinglogo1 {
+    height: 75px;
+    left: 0px;
+    position: absolute;
+    z-index: 5;
+}
+
+.google {
+    margin-left: 5%;
+}
+
+.addbanos {
+    
+}
+
+.welcomeHeader {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.welcomep1 {
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+
+.welcomep2 {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.option1 {
+    position: relative;
+    top: 85px;
+    text-align: center;
+}
+
+.option2 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
+.option3 {
+    position: relative;
+    top: 55px;
+    text-align: center;
+}
+
+.option4 {
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+.devnote1 {
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+
+.about1 {
+    position: relative;
+    top: 85px;
+}
+
+/* Add a black background color to the top navigation */
+.topnavlogo {
+    background-color: #bb00ff;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    opacity: .8;
+    left: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnavlogo a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.aboutHead2 {
+    position: relative;
+    text-align: center;
+    top: 75px;
+}
+
+.about2 {
+    position: relative;
+    top: 85px;  
 }

@@ -40,3 +40,10 @@ NEXT_README.md*
 
 # Local Database
 db
+
+# Enviorment Variables
+.env
+
+# Secrets
+secrets.txt
+secrets.json
